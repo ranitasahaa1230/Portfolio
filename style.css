@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Source Serif Pro', serif;
@@ -57,22 +64,31 @@ li{
 }
 
 
-.social-links{
+footer{
+    text-align: center;
+    background-color:#6B7280;  
+}
+
+.connect{
+    font-size: 2rem;
+    color:white;
+    font-family: 'Merienda', cursive;
+    padding: 0.8rem;
+}
+
+img{
     height: 2rem;
     width: 2rem;
+    margin: 0.2rem;
+    box-shadow:0px 0px 10px 0px black;
 }
 
-a .item-list{
-    display: flex;
-    justify-content: center;
-    
+img:hover{
+    background-color: blue;
 }
 
-.footer{
-    text-align: center;
-    background-color: var(--green);
-}
-
-.footer ul{
-    padding-inline-start: 0px;
-}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    body {
+      background-color: lightpink;
+    }
+  }
