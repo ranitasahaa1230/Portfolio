@@ -49,7 +49,7 @@ li{
 
 }
 .head .head-img{
-    max-width: 24rem;
+    max-width: 22rem;
     display: block;
     margin: auto;
     padding: 1rem;
@@ -155,7 +155,7 @@ hr{
 
 
 .my-img{
-    max-width: 24rem;
+    max-width: 22rem;
     display: block;
     margin: auto;
     padding: 1rem;
@@ -168,7 +168,7 @@ hr{
 
 }
 .box{
-    max-width: 650px;
+    max-width: 640px;
     margin: auto;
     margin-top: 0.6rem;
     margin-bottom: 1rem;
@@ -176,6 +176,7 @@ hr{
     padding: 0.8rem;
     border: 3px solid #34D399;
     box-shadow: 10px 5px 5px #34D399;
+
 }
 .link{
     color: white;
@@ -223,7 +224,7 @@ h2{
     margin: 1rem;
 }
 .proj{
-    max-width: 600px;
+    max-width: 580px;
     margin: auto;
     padding: 1.7rem;
     text-align: left;
@@ -231,7 +232,7 @@ h2{
     background-color:#E5E7EB;
     border: 3px solid #34D399;
     box-shadow: 10px 8px 5px #34D399;
-    border-radius: 15px;
+    border-radius: 18px;
 
 }
 
