@@ -120,6 +120,7 @@ hr{
 .desc{
     font-family: 'Source Serif Pro', serif;
     text-align: left;
+    margin: 0.5rem;
 }
 .skill-section .title{
     text-align: center;
@@ -210,6 +211,57 @@ footer{
     background-color: blue;
 }
 
+h2{
+    font-size: 3.5rem;
+    font-family: 'Sacramento', cursive;
+    color:black; 
+    text-shadow: 1px 1px #059669; 
+    margin: 1rem;
+}
+.proj{
+    max-width: 650px;
+    border: 2px solid #059669;
+    margin: auto;
+    border-radius: 25px;
+    padding: 2rem;
+    text-align: left;
+}
+
+h3{
+    padding-bottom: 0.6rem;
+}
+.mark{
+    color: #059669;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    border-radius: 10px;
+    border: 2px solid #059669;
+}
+
+.cur{
+    font-family: 'Merienda', cursive;
+    font-size: large;
+
+}
+
+.github{
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* margin: 0.8rem; */
+    border: 2px solid #059669;
+    background-color: #059669;
+}
+.live{
+    color: green;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* margin: 0.8rem; */
+    border: 2px solid #059669;
+    /* background-color: #059669; */
+}
 @media (min-width: 768px) and (max-width: 1199.98px){
     body {
       background-color: lightskyblue;
