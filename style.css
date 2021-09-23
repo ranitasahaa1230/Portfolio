@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 *{
     margin: 0;
@@ -8,26 +9,23 @@
 }
 
 body{
-    font-family: 'Source Serif Pro', serif;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 :root{
     --green:#34D399;
+
     
 }
 
 .nav{
     background-color: var(--green);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     display: flex;
     justify-content: end;
-    padding: 1rem;
+    padding: 1.5rem;
+    font-family: 'Source Serif Pro', serif;
 
 }
 
@@ -55,35 +53,160 @@ li{
     display: block;
     margin: auto;
     padding: 1rem;
-    background-color:#D1D5DB;
+    border:3px solid #065F46;
+    border-radius: 55px;
+    
 
 }
 .head .head-caption{
-    padding-top: 2rem;
+    padding-top: 0.2rem;
     text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Source Serif Pro', serif;
+    color:#064E3B;
+
+}
+h4{
+    font-size: larger;
+}
+h1{
+    padding-top: 1.7rem;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    color: var(--green);
+    text-shadow: 1px 2px black;   
+
+}
+hr{
+    font-weight: bolder;
+    margin: 1rem;
+    
 }
 
+
+.container{
+    margin-top: 1.9rem;
+    font-size: 3rem;
+    color:#065F46;
+    font-weight: 600;
+    font-family: 'Sacramento', cursive;
+}
+.contact{
+    background-color:#059669;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color:white;
+    font-size: 1.4rem;
+    border: 1px solid #34D399;
+    margin-right:12rem;
+}
+
+.section{
+    max-width: 650px;
+    margin: auto;
+    border: 2px solid #34D399;
+    padding: 2rem;
+    background-color: #34D399;
+    border-radius: 25px;
+    margin-bottom: 2.3rem;
+}
+.about{
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+    color: white;
+}
+
+.desc{
+    font-family: 'Source Serif Pro', serif;
+    text-align: left;
+}
+.skill-section .title{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 0.3rem;
+    font-family: 'Sacramento', cursive;
+    color:#065F46;
+    font-weight: 600;
+
+}
+.skill-section{
+    max-width: 800px;
+    margin: auto;    
+}
+
+.skill-section ul.skill, .skill-section .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.4rem;
+    margin: 0.5rem;
+}
+
+.skill-section .wrapper {
+    flex-direction: column;
+}
+
+.skill-section i {
+    font-size: 60px;
+    padding: 1rem;
+}
+
+
+.my-img{
+    max-width: 24rem;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    border:3px solid #34D399;
+    border-radius:40px;
+
+}
+.box{
+    max-width: 650px;
+    margin: auto;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    background-color:#E5E7EB;
+    padding: 0.8rem;
+    border: 3px solid #34D399;
+    box-shadow: 10px 5px 5px #34D399;
+}
+.link{
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 0.8rem;
+    border: 2px solid #059669;
+    background-color: #059669;
+
+}
 
 footer{
     text-align: center;
-    background-color:#6B7280;  
+    background-color:var(--green);  
+    margin-top: 3rem;
+    height: 10rem;
 }
 
 .connect{
+    padding-top: 2rem;
+    padding-bottom: 1.2rem;
     font-size: 2rem;
     color:white;
     font-family: 'Merienda', cursive;
-    padding: 0.8rem;
+    
 }
 
-img{
+.foot-img{
     height: 2rem;
     width: 2rem;
     margin: 0.2rem;
     box-shadow:0px 0px 10px 0px black;
 }
 
-img:hover{
+.foot-img:hover{
     background-color: blue;
 }
 
