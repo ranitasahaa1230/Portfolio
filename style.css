@@ -49,13 +49,12 @@ li{
 
 }
 .head .head-img{
-    max-width: 22rem;
+    max-width: 23rem;
     display: block;
     margin: auto;
     padding: 1rem;
     border:3px solid #065F46;
     border-radius: 55px;
-    
 
 }
 .head .head-caption{
@@ -236,12 +235,32 @@ h2{
 
 }
 
+.blog{
+        max-width: 580px;
+        margin: auto;
+        text-align: left;
+        background-color:#E5E7EB;
+        margin-bottom: 2.3rem;
+        border: 3px solid #34D399; 
+        padding: 1.7rem;
+}
+
 h3{
     padding-bottom: 0.6rem;
     font-family: 'Source Serif Pro', serif;
     color:#064E3B;
 
 }
+
+.art{
+    padding: 1rem;
+    font-family: 'Source Serif Pro', serif;
+    color:white;
+    font-size: 2rem;
+    background-color: #059669;
+    margin-bottom: 0.8rem;
+}
+
 .mark{
     color: #059669;
     font-size: 1.2rem;
@@ -274,7 +293,20 @@ h3{
     border: 2px solid #059669;
     background-color:#059669;
 }
+.read{
+    color: #059669;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: 2px solid #059669;
+    margin-left: 10rem;
 
+
+}
+.read:hover{
+    background-color: black;
+    border: 1px solid black;
+}
 i{
     padding: 0.3rem;
 }
