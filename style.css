@@ -120,7 +120,7 @@ hr{
 .desc{
     font-family: 'Source Serif Pro', serif;
     text-align: left;
-    margin: 0.5rem;
+    margin: 0.7rem;
 }
 .skill-section .title{
     text-align: center;
@@ -161,6 +161,10 @@ hr{
     padding: 1rem;
     border:3px solid #34D399;
     border-radius:40px;
+
+}
+.projs{
+    font-family: 'Source Serif Pro', serif;
 
 }
 .box{
@@ -219,16 +223,23 @@ h2{
     margin: 1rem;
 }
 .proj{
-    max-width: 650px;
-    border: 2px solid #059669;
+    max-width: 600px;
     margin: auto;
-    border-radius: 25px;
-    padding: 2rem;
+    padding: 1.7rem;
     text-align: left;
+    margin-bottom: 2rem;
+    background-color:#E5E7EB;
+    border: 3px solid #34D399;
+    box-shadow: 10px 8px 5px #34D399;
+    border-radius: 15px;
+
 }
 
 h3{
     padding-bottom: 0.6rem;
+    font-family: 'Source Serif Pro', serif;
+    color:#064E3B;
+
 }
 .mark{
     color: #059669;
@@ -245,22 +256,25 @@ h3{
 }
 
 .github{
-    color: white;
-    font-size: 1.3rem;
+    color: #059669;
+    font-size: 1.35rem;
     padding: 0.5rem;
-    border-radius: 10px;
-    /* margin: 0.8rem; */
+    border-radius: 12px;
+    margin: 0.2rem;
     border: 2px solid #059669;
-    background-color: #059669;
 }
 .live{
-    color: green;
-    font-size: 1.3rem;
+    color: white;
+    font-size: 1.2rem;
     padding: 0.5rem;
-    border-radius: 10px;
+    border-radius: 12px;
     /* margin: 0.8rem; */
     border: 2px solid #059669;
-    /* background-color: #059669; */
+    background-color:#059669;
+}
+
+i{
+    padding: 0.3rem;
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
     body {
