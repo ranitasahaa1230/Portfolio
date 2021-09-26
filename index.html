@@ -27,7 +27,7 @@
       <img class="head-img" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif" />
       <h1>Ranita Saha</h1>
       <h4 class="head-caption">FrontEnd Web Developer</h4>
-      <a href="/" class="link-success"><button class="contact">Contact Me</button></a>
+      <a onclick="jumpToFooter('cont')"><button class="contact">Contact Me</button></a>
     </header>
 
     <section class="section">
@@ -121,16 +121,20 @@
       <a href="/blogs.html"><button class="link">Checkout my Blogs</button></a>
     </article>
 
-    <footer>
-        <p>
+    <footer class="contact-section">
+      <p>
             <p class="connect">Connect with me!💕</p>
+            <div class="cont">
         <a href="https://github.com/ranitasahaa1230"><img class="foot-img" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" /></a>
         <a href="https://twitter.com/RanitaS99535426"><img class="foot-img" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg"/></a>
         <a href="https://linkedin.com/in/saharanitaa1230dreamer"><img class="foot-img" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" /></a>
         <a href="https://instagram.com/suitcase_full_of_sunshine"><img class="foot-img" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg"/></a>
-        
-        </p>    
+        </div>
+      </p>     
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="contact.js"></script>
   </body>
 </html>
