@@ -26,8 +26,7 @@ body{
     justify-content: end;
     padding: 3rem;
     font-family: 'Source Serif Pro', serif;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    height: 5rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 
@@ -85,7 +84,6 @@ hr{
     margin: 1rem;
     
 }
-
 
 .container{
     margin-top: 1.9rem;
@@ -196,8 +194,6 @@ footer{
     background-color:var(--green);  
     margin-top: 3rem;
     height: 10rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
 }
@@ -229,9 +225,21 @@ h2{
     text-shadow: 1px 1px #059669; 
     margin: 1rem;
 }
+
+.project-mine{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+    gap:1.5rem;
+}
+
 .proj{
-    max-width: 580px;
-    margin: auto;
+    /* max-width: 580px; */
+    width: 40rem;
+    height: fit-content;
+    /* height: 20rem; */
     padding: 1.7rem;
     text-align: left;
     margin-bottom: 2rem;
