@@ -177,7 +177,7 @@ hr{
     padding: 0.8rem;
     border: 3px solid #34D399;
     box-shadow: 10px 5px 5px #34D399;
-
+    border-radius: 1rem;
 }
 .link{
     color: white;
