@@ -302,6 +302,7 @@ h3{
     border-radius: 12px;
     margin: 0.2rem;
     border: 2px solid #059669;
+    cursor: pointer;
 }
 .live{
     color: white;
@@ -311,6 +312,7 @@ h3{
     /* margin: 0.8rem; */
     border: 2px solid #059669;
     background-color:#059669;
+    cursor: pointer;
 }
 .read{
     color: #059669;
