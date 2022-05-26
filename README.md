@@ -2,7 +2,7 @@
 
 ## Live
 
-[Ranita Saha](https://suitcase-full-of-sunshine-ranitasaha.netlify.app/)
+[Ranita Saha](https://ranitasaha.netlify.app/)
 
 ## About
 
